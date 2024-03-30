@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up-0025</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h2><a href="index.html" target="_blank">arnama</a></h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="home.html">Information</a></li>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="daftar.html">Registration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <center><div class="main">
+
+        <h1>Registration</h1>
+        <form action="" method="post">
+            <label for="username">Username</label><br>
+            <input type="text" name="username" id="username" placeholder="username" class="input" required><br>
+            <label for="gender">Gender</label><br>
+
+            <label><input type="radio" name="gender" value="male">male</label>
+            <label><input type="radio" name="gender" value="female">female</label><br>
+            <label for="date">Birthday</label><br />
+            <input type="date" id="date" name="date" min="1980-01-01"><br />
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="username@gmail.com" class="input" required><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder="password" class="input" required><br><br />
+            <center><input type="submit" value="Register" class="btn"></center>
+            <br />
+        </form>
+        <div class="daftar">
+            Already have an account? <a href="login.html">login</a>
+        </div>
+    </div>
+        <br />
+        
+        <style>
+            body {
+                overflow: auto;
+            }
+            .main {
+                width: 400px;
+                height: 450px;
+                padding: 30px;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                margin-top: 15%;
+                color: #fff;
+                border-left: 2px solid silver;
+
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                border-bottom: 1px solid silver;
+            }
+            form {
+                text-align: left;
+                padding: 0 40px;
+
+                box-sizing: border-box;
+            }
+            .input {
+                padding: 10px;
+                width: 100%;
+                align-content: center;
+            }
+            label {
+                margin-bottom: 2px;
+                text-align: left;
+            }
+            .daftar {
+                border-top: 1px solid silver;
+                text-align: left;
+            }
+            .btn {
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            
+
+
+
+
+
+        </style>
+    </body>
+</html>

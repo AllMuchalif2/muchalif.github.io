@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-0025</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h2><a href="home.html" target="_blank">arnama</a></h2>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Information</a></li>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="daftar.html">Registration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <center><div class="main">
+
+        <h1>Login</h1>
+        <form action="" method="post">
+            <label for="username">Email</label><br>
+            <input type="email" name="username" id="username" placeholder="username@gmail.com" class="input" required><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder="password" class="input" required><br>
+            <center><input type="submit" value="login" class="btn"></center>
+            <br />
+        </form>
+        <div class="daftar">
+            Don't have an account yet? <a href="daftar.html">Register</a>
+        </div>
+    </div>
+
+        <style>
+            body {
+                height: 100vh;
+                overflow: auto;;
+            }
+            .main {
+                width: 400px;
+                height: 350px;
+                padding: 30px;
+                border-radius: 5px;
+                border-left: 2px solid silver;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                margin-top: 15%;
+                color: #fff;
+                backdrop-filter: blur;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                border-bottom: 1px solid silver;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                padding: 0 40px;
+
+                box-sizing: border-box;
+            }
+            .input {
+                width: 90%;
+                border-radius: 5px;
+                height: 35px;
+                align-content: center;
+
+            }
+            label {
+                margin-bottom: 2px;
+                text-align: left;
+            }
+            .daftar {
+                border-top: 1px solid silver;
+                text-align: left;
+            }
+            .btn {
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+
+        </style>
+    </body>
+</html>
