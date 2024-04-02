@@ -16,9 +16,9 @@
 
 body {
     
-    background-image: url(bg.jpg);
-    background-repeat: no-repeat;
-    /* background-color: #36454F; */
+    /*background-image: url(bg.jpg);
+    background-repeat: no-repeat;*/
+    background-color: #36454F; 
     overflow: hidden;
     height: 100vh;
 }
